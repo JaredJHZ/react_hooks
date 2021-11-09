@@ -12,8 +12,9 @@ import { CallbackHook } from './components/06-memos/CallbackHook';
 import { Memohook } from './components/06-memos/MemoHook';
 import { Memorize } from './components/06-memos/Memorize';
 //import { HooksApp } from './HookApp';
+import {Padre} from './components/07-tarea-memo/Padre';
 
 ReactDOM.render(
-  <CallbackHook />,
+  <Padre  />,
   document.getElementById('root')
 );
