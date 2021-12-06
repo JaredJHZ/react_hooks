@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { procesoPesado } from '../../helpers/procesoPesado';
 import { useCounter } from '../../hooks/useCounter';
 import '../02-useEffect/effects.css';
-import { Small } from './Small';
+//import { Small } from './Small';
 export const Memohook = () => {
 
     const {counter, increment } = useCounter(5000 );
